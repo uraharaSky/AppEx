@@ -18,17 +18,10 @@
         android:gravity="center_horizontal"/>
 
 
-    <TextView
-        android:id="@+id/our_goals_text"
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/small_column"
-        android:layout_marginTop="183dp"
-        android:text="OUR GOALS!!"
-        android:textAlignment="center"
-        android:textColor="#ffff"
-        android:textSize="70sp"
-        android:textStyle="bold" />
+        android:src="animation"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -38,6 +31,7 @@
         android:layout_marginBottom="48dp"
         android:text="Save Water Now!!!"
         android:textStyle="italic" />
+
 
 
 </RelativeLayout>
